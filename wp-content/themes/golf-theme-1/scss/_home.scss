@@ -1,0 +1,109 @@
+.home-bg {
+    background: red;
+    padding: 10% 0 0 0;
+    min-height: calc(100vh - 50px);
+    h1 {
+        font-size: 45px;
+        color: $white;
+    }
+    h2 {
+        font-size: 24px;
+        color: $white;
+    }
+    h5 {
+        font-size: 15px;
+        margin-top: 15px;
+        color: $white;
+    }
+    .left {
+        padding: 60px 30px 0 30px;
+    }
+    .right {
+        iframe {
+            width: 100%;
+            display: block;
+            margin: auto;
+            // border: 10px solid #333;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            // filter: drop-shadow(0px 0px 10px #333);
+            &:hover {
+                opacity: .9;
+                cursor: pointer;
+            }
+        }
+    }
+    .signup {
+        text-align: center;
+        padding: 40px 0;
+    }
+}
+
+.home-btn {
+    padding: 15px 40px;
+    font-size: 20px;
+    max-width: 250px;
+    margin-top: 50px;
+}
+
+.home-testimonials {
+    padding: 40px 0;
+    background: $light-gray;
+    .headshot {
+        border-radius: 100px;
+        width: 35px;
+    }
+}
+
+.about {
+    text-align: center;
+    padding: 40px;
+    h1 {
+        text-align: center;
+    }
+}
+
+.videos {
+    text-align: center;
+}
+
+.call-to-action-light {
+    padding: 20px;
+    text-align: center;
+    a {
+        color: #007bff;
+        text-decoration: none;
+        &:hover {
+            opacity: .9;
+            cursor: pointer;
+        }
+    }
+}
+
+.call-to-action-dark {
+    background: $black;
+    padding: 20px;
+    text-align: center;
+    a {
+        color: $light-gray;
+        text-decoration: none;
+        &:hover {
+            opacity: .9;
+            cursor: pointer;
+            color: #efefef;
+        }
+    }
+}
+
+.store {
+    padding: 40px;
+    text-align: center;
+}
+
+.split {
+    max-height: 465px;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}

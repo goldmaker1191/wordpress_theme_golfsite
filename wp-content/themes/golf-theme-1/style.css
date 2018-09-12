@@ -1,0 +1,23 @@
+/*
+Theme Name: Golf Theme 1
+Theme URI: www.google.com
+Author: Kenneth Powers
+Author URI: 
+Description: This is the golf theme 1.
+Version: 1.0.13
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Text Domain: golf-theme-1
+Domain Path: /languages/
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, front-page-post-form, post-formats, threaded-comments, translation-ready
+
+This theme built with Twitter Bootstrap v.3. It is basic theme with basic style for build new theme with Bootstrap.
+
+*/
+
+
+/*
+Required WordPress CSS
+*/
+
+@import "css/custom.css";

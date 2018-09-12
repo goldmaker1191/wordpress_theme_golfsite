@@ -1,0 +1,29 @@
+.navbar-brand {
+    img {
+        max-width: 150px;
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.login-btn {
+    margin-right: 15px;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background: #333;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 0px 20px;
+        margin-top: 10px;
+    }
+}
