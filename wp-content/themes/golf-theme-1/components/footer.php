@@ -439,6 +439,9 @@
 	<!--.container page-container-->
 	<!--wordpress footer-->
 	<?php wp_footer(); ?>
+    
+    
+    <script src="<?php echo get_template_directory_uri(); ?>/swiper.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>//header.js"></script>
 	</body>
-
 	</html>

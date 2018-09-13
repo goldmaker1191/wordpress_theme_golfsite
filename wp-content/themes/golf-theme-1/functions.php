@@ -15,6 +15,8 @@ if (!function_exists('bootstrapEnqueueScripts')) {
 
         wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css', array(), '4.0.0');
         wp_enqueue_style('animate-css', get_template_directory_uri() . '/css/animate.css', array(), '3.6.0');
+        wp_enqueue_style('foundation', get_template_directory_uri() . '/css/foundation.min.css', array(), '3.6.0');
+        wp_enqueue_style('ionicons', get_template_directory_uri() . '/css/ionicons.css', array(), '3.6.0');
         wp_enqueue_style('custom-style', get_template_directory_uri() . '/css/custom.css', array(), '1.0.0');
         wp_enqueue_script('jquery');
         wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array(), '4.0.0');
